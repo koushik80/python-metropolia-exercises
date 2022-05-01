@@ -1,4 +1,4 @@
-#E2.2
+#E2.2-Counting with variables
 #Problem:
 #Define two variables and assign them values of 1000 and 24. After this,
 #make the interpreter do the calculation number1+number2+15 and then take the 2nd exponent (**2) of the result.

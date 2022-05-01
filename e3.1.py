@@ -1,4 +1,4 @@
-#E3.1
+#E3.1-The basic if-structure
 #Problem:
 #The program should first ask a number from the user and save it to a variable.
 #Then if the number is even (possible to divide by 2),

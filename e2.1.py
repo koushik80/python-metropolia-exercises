@@ -1,4 +1,4 @@
-#E-2.1
+#E-2.1-Defining a variable and
 #Problem: The objective is to create a variable by giving it the correct name,
 #and assign it the string "string-type content" as a value.
 #Then insert this variable into a print command so that the program prints out following text:

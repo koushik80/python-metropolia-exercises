@@ -1,4 +1,4 @@
-#E2.6
+#E2.6-String slices
 #Problem:
 #Define a variable and assign it a string "desserts" as a value.
 #Then create three new variables, and assign them values by slicing the

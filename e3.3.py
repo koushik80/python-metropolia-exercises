@@ -1,4 +1,4 @@
-#E3.3
+#E3.3-Complete if-structure
 #Problem:The third exercise is to create a conditional structure which prints a line depending on the given selection.
 #The program asks a number between 1 and 3,
 #and based on the number prints the following:

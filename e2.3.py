@@ -1,4 +1,4 @@
-#E2.3
+#E2.3-Type Conversions
 #Problem:
 #Start by defining two variables, and assign the first variable the float value 10.6411.
 #he second variable gets a string "Stringline!" as a value.

@@ -1,4 +1,4 @@
-#E2.5
+#E2.5-Calculator, taking an input
 #Problem:
 #Take two numbers from the user with input(),
 #calculate the result

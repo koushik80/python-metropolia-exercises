@@ -1,4 +1,4 @@
-#E3.2
+#E3.2-Structures within structures
 #Problem:
 #The idea is to create a program which asks for a user name and password.
 #If the given name is wrong, the program prints "The given name is wrong".
