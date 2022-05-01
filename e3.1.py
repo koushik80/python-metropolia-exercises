@@ -6,11 +6,14 @@
 #The best way to do this is to use the operator remainder.
 #The program should print the following:
 
-#Give a number: 24
-#The given number was even.
+   #Give a number: 24
+   #The given number was even.
+
 #or alternatively
-#Give a number: 11
-#Splution:
+
+   #Give a number: 11
+
+#Solution:
 
 x = int(input("Give a number: "))
 if (x % 2) == 0:

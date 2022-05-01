@@ -7,20 +7,20 @@
 #The correct inputs should be "John" and the password "ABC123".
 #Overall, the program should print the following:
 
-#Give name: Peter
-#The given name is wrong.
+   #Give name: Peter
+   #The given name is wrong.
 
 #or alternatively
 
-#Give name: John
-#Give password: Monkeys?
-#The password is incorrect.
+   #Give name: John
+   #Give password: Monkeys?
+   #The password is incorrect.
 
 #or alternatively
 
-#Give name: John
-#Give password: ABC123
-#Both inputs are correct!
+   #Give name: John
+   #Give password: ABC123
+   #Both inputs are correct!
 
 #Solution:
 
