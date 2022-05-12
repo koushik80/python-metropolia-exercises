@@ -40,7 +40,7 @@ def main():
         else:
             tester()
 
-def tester(givenstring="Too short"):
+def tester(givenstring = "Too short"):
     print(givenstring)
 
 if __name__ == "__main__":
