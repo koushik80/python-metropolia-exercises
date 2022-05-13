@@ -39,6 +39,7 @@ while True:
 for i in numbers:
     if i == 0:
         print("Tails!")
+        break
     else:
         print("Heads!")
 
