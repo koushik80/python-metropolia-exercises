@@ -2,8 +2,8 @@
 
 #Problem: The second exercise in this chapter continues with random selection.
 #In this exercise the objective is to develop a game called nuke-foot-cockroach,
-#which is pretty similar to the more popular variant,
-#paper-rock-scissors. The rules are simple: both players select either nuke,
+#which is pretty similar to the more popular variant,paper-rock-scissors.
+#The rules are simple: both players select either nuke,
 #foot or cockroach, and the winner is determined in the following way:
 #Foot beats cockroach, nuke beats foot and cockroach beats nuke.
 #If both the player and the AI select the same, it's a tie, except if both choose nuke, then both lose.
