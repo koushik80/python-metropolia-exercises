@@ -40,11 +40,11 @@ from random import randint
 
 def sub(computer):
     if computer == 1:
-        computer = "Foot"
+       computer = "Foot"
     elif computer == 2:
-        computer = "Nuke"
+         computer = "Nuke"
     elif computer == 3:
-        computer = "Cockroach"
+         computer = "Cockroach"
     print("Computer chose: ", computer)
 
 
