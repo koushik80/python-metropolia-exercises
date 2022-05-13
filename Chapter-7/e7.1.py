@@ -6,6 +6,7 @@
 #The idea here is to create a program, which simulates coin flips by randomly selecting 0 (Tails) or 1 (Heads) and printing out the result. 
 #When working correctly, the program prints out something like this:
 
+from random import randint
                           #>>>
                           #Heads!
 #Obviously, as the program applies random activities,
@@ -23,14 +24,22 @@
 
 import random
 
-print("5 coin flips: ")
+print("5 coin flips:")
+numbers = []
+#picks 5 random numbers from 0 to 1
+while True:
+    if len(numbers) == 5:
+        break
+    pick = random.randint(0, 1)
+    #print(pick)
+    numbers.append(pick)
 
-x = 0
 
-while x < 5:
-    x += 1
-    flip = random.randint(0,1)
-    if flip == 0:
+#0 == Tails; 1 == Heads
+for i in numbers:
+    if i == 0:
         print("Tails!")
     else:
         print("Heads!")
+
+
