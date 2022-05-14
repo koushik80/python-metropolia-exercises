@@ -17,5 +17,7 @@
 
 #Solution:
 
+#Note: There's a seperate file facts.txt in this folder
+
 f = open("facts.txt", "r")
 print("Following was read from the file: ",f.read())
