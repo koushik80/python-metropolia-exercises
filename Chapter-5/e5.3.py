@@ -35,6 +35,8 @@
 
 #Solution
 
+#Note: There's a seperate file strings.txt in this folder
+
 file = open("strings.txt", "r")
 content = file.readlines()
 
