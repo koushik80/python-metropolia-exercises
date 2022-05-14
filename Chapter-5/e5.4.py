@@ -49,6 +49,8 @@
 
 #Solution:
 
+#Note: There's a seperate file notebook.txt in this folder
+
 while True:
     print("""
 (1) Read the notebook
