@@ -94,6 +94,7 @@ import time
 
 myNotebook = "notebook.txt"
 
+
 try:
     notebook = open(myNotebook, "r")
     notebook.close()

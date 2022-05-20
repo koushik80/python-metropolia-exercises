@@ -22,25 +22,11 @@ from random import randint
 
 #Solution:
 
-import random
+from random import randint
 
-print("5 coin flips:")
-numbers = []
-#picks 5 random numbers from 0 to 1
-while True:
-    if len(numbers) == 5:
-        break
-    pick = random.randint(0, 1)
-    #print(pick)
-    numbers.append(pick)
-
-
-#0 == Tails; 1 == Heads
-for i in numbers:
-    if i == 0:
-        print("Tails!")
-        break
-    else:
-        print("Heads!")
+if randint(0, 2) == 1:
+	print("Heads!")
+else:
+	print("Tails!")
 
 
