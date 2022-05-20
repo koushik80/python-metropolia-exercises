@@ -14,9 +14,17 @@
 #Solution:
 
 class Player:
-    teamcolor = ""
-    points = ""
-    
+    teamcolor = "Blue"
+    points = "300"
+
+    def printout(self):
+        print("The " + self.teamcolor + " contender has " + self.points + " points!") 
 
 def main():
-    team.teamcolor = "Blue"
+    team_player = Player()
+    team_player.teamcolor = "Blue"
+    team_player.points = "300"
+    team_player.printout()
+
+if __name__ == '__main__':
+    main()
