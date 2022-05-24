@@ -113,10 +113,14 @@ while True:
     select = int(input("Please select one: "))
 
     if (select == 1):
-        notebook = open(myNotebook, "r")
-        filetext = notebook.read()
-        print(filetext)
-        notebook.close()
+        try:
+            notebook = open(myNotebook, "r")
+            filetext = notebook.read()
+            print(filetext)
+            notebook.close()
+        except Exception:
+            print("Now using file {0}".format(myNotebook))
+
     elif (select == 2):
         notebook = open(myNotebook, "a")
         text = str(input("Write a new note: "))
