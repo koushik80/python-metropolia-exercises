@@ -17,53 +17,53 @@
 #the program responds "Incorrect selection.".
 #When the program works correctly it prints out the following:
 
-#>>>
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 1
-#What will be added?: Apples
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 1
-#What will be added?: Beer
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 1
-#What will be added?: Carrots
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 2
-#There are 3 items in the list.
-#Which item is deleted?: 3
-#Incorrect selection.
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 2
-#There are 3 items in the list.
-#Which item is deleted?: 2
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 2
-#There are 2 items in the list.
-#Which item is deleted?: 0
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 4
-#Incorrect selection.
-#Would you like to
-#(1)Add or
-#(2)Remove items or
-#(3)Quit?: 3
-#The following items remain in the list:
-#Beer
-#>>>
+                    #>>>
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 1
+                    #What will be added?: Apples
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 1
+                    #What will be added?: Beer
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 1
+                    #What will be added?: Carrots
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 2
+                    #There are 3 items in the list.
+                    #Which item is deleted?: 3
+                    #Incorrect selection.
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 2
+                    #There are 3 items in the list.
+                    #Which item is deleted?: 2
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 2
+                    #There are 2 items in the list.
+                    #Which item is deleted?: 0
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 4
+                    #Incorrect selection.
+                    #Would you like to
+                    #(1)Add or
+                    #(2)Remove items or
+                    #(3)Quit?: 3
+                    #The following items remain in the list:
+                    #Beer
+                    #>>>
 
 #Solution:
 
