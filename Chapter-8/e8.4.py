@@ -119,7 +119,7 @@ while True:
             print(filetext)
             notebook.close()
         except Exception:
-            print("Now using file {0}".format(myNotebook))
+            continue
 
     elif (select == 2):
         notebook = open(myNotebook, "a")
