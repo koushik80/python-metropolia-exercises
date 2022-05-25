@@ -1,1 +1,1 @@
-<h1 align="center">Metropolia_Viope_Python_exercises</h1>
+<h1 align="center">Metropolia_Viope_Python_Exercises</h1>
