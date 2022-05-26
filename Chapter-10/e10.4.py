@@ -150,3 +150,16 @@ def writefile(notebook, file_name):
         writefile.close()
     except IOError:
         return False
+
+
+def newfile(file_name):
+    try:
+        newfile = open(file_name, 'wb')
+        notebook = []
+        pickle.dump(notebook, newfile)
+        newfile.close()
+    except IOError:
+        return False
+
+
+
