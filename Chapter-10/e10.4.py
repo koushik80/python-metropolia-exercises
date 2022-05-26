@@ -143,4 +143,10 @@ def readfile(file_name):
             print("No default notebook was found, created one.")
 
 
-
+def writefile(notebook, file_name):
+    try:
+        writefile = open(file_name, 'wb')
+        pickle.dump(notebook, writefile)
+        writefile.close()
+    except IOError:
+        return False
