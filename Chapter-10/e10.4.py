@@ -131,13 +131,15 @@ import pickle
 import time
 
 
+file_name = "notebook.dat"
+
 def readfile(file_name):
     while True:
         try:
             handle = open(file_name, 'rb')
-            content = pickle.load(handle)
+            notebook_script = pickle.load(handle)
             handle.close()
-            return content
+            return notebook_script
         except IOError:
             newfile(file_name)
             print("No default notebook was found, created one.")
@@ -162,4 +164,62 @@ def newfile(file_name):
         return False
 
 
+def editnote(notebook):
+    print("The list has", len(notebook), "notes.")
+    try:
+        edit_notebook = int(input("Which of them will be changed?:"))
+        print(notebook[edit_notebook])
+        new_note = input("Give the new note: ")
+        new_note = new_note+":::"
+        new_note = time.strftime("%X %x")
+        notebook[edit_notebook] = new_note
+        return notebook
+    except Exception:
+        print("Incorrect value.")
 
+
+def deletenote(notebook):
+    print("The list has", len(notebook), "notes.")
+    try:
+        del_note = int(input("Which of them will be deleted?: "))
+        del_note -= 1
+        print("Deleted note", notebook[del_note])
+        notebook.pop(del_note)
+
+        return notebook
+    except Exception:
+        print("Incorrect value.")
+
+
+def main():
+    notebook = []
+    notebook = readfile(file_name)
+    while True:
+        select = input('''(1) Read the notebook
+(2) Add note
+(3) Edit a note
+(4) Delete a note
+(5) Save and quit
+Please select one: ''')
+        if select == '1':
+            for i in notebook:
+                print(i)
+        elif select == '2':
+            new_note = input("Write a new note: ")
+            new_note = new_note+":::"
+            new_note = time.strftime("%X %x")
+            notebook.append(new_note)
+        elif select == '3':
+            notebook = editnote(notebook)
+        elif select == '4':
+            notebook = deletenote(notebook)
+        elif select == '5':
+            writefile(notebook, file_name)
+            print("Notebook shutting down, thank you.")
+            break
+
+
+
+
+if __name__ == "__main__":
+    main()
