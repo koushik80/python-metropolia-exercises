@@ -171,7 +171,7 @@ def editnote(notebook):
         print(notebook[edit_notebook])
         new_note = input("Give the new note: ")
         new_note = new_note+":::"
-        new_note = time.strftime("%X %x")
+        new_note += time.strftime("%X %x")
         notebook[edit_notebook] = new_note
         return notebook
     except Exception:
@@ -207,7 +207,7 @@ Please select one: ''')
         elif select == '2':
             new_note = input("Write a new note: ")
             new_note = new_note+":::"
-            new_note = time.strftime("%X %x")
+            new_note += time.strftime("%X %x")
             notebook.append(new_note)
         elif select == '3':
             notebook = editnote(notebook)
